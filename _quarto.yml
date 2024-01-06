@@ -1,0 +1,37 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  downloads: [pdf]
+  title: "Principles and recommendations"
+  page-navigation: true
+  page-footer:
+    left: |
+      *Principles and Recommendations for Population and Housing Censuses*.
+  search:
+    location: navbar
+    type: textbox
+  reader-mode: true
+
+  chapters:
+    - index.qmd
+    - part1.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    css: custom.css
+  pdf:
+    documentclass: scrreprt
+
+fig-cap-location: top
+crossref:
+  fig-title: Table
+  title-delim: .
+  fig-prefix: Table
+  
+editor: visual
+
