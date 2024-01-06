@@ -17,12 +17,17 @@ book:
   chapters:
     - index.qmd
     - part1.qmd
+    - part2.qmd
+    - part3.qmd
+    - part4.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: lumen
+      dark: darkly
     css: custom.css
   pdf:
     documentclass: scrreprt
